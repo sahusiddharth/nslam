@@ -1,0 +1,28 @@
+INFO:root:Namespace(alpha=0.99, auto_gpu_config=1, camera_height=1.25, clip_param=0.2, collision_threshold=0.2, cuda=False, du_scale=2, dump_location='./tmp/', entropy_coef=0.001, env_frame_height=256, env_frame_width=256, eps=1e-05, eval=1, exp_loss_coeff=1.0, exp_name='exp1', frame_height=128, frame_width=128, gamma=0.99, global_downscaling=2, global_hidden_size=256, global_lr=2.5e-05, goals_size=2, hfov=90.0, load_global='0', load_local='0', load_slam='0', local_hidden_size=512, local_optimizer='adam,lr=0.0001', local_policy_update_freq=5, log_interval=10, map_pred_threshold=0.5, map_resolution=5, map_size_cm=2400, max_episode_length=100, max_grad_norm=0.5, no_cuda=True, noise_level=1.0, noisy_actions=1, noisy_odometry=1, num_episodes=100, num_global_steps=40, num_local_steps=25, num_mini_batch=1, num_processes=2, num_processes_on_first_gpu=0, num_processes_per_gpu=11, obs_threshold=1, obstacle_boundary=5, pose_loss_coeff=10000.0, ppo_epoch=4, pretrained_resnet=1, print_images=0, proj_loss_coeff=1.0, randomize_env_every=1000, save_interval=1, save_periodic=500000, save_trajectory_data='0', seed=1, short_goal_dist=1, sim_gpu_id=0, slam_batch_size=72, slam_iterations=10, slam_memory_size=500000, slam_optimizer='adam,lr=0.0001', split='train', task_config='tasks/pointnav_gibson.yaml', tau=0.95, total_num_scenes='auto', train_global=1, train_local=1, train_slam=1, use_deterministic_local=0, use_gae=False, use_pose_estimation=2, use_recurrent_global=0, use_recurrent_local=1, value_loss_coef=0.5, vis_type=1, vision_range=64, visualize=0)
+INFO:root:Time: 00d 00h 00m 00s, num timesteps 0, FPS 0,
+	Rewards:
+	Losses:
+INFO:root:Time: 00d 00h 00m 04s, num timesteps 20, FPS 4,
+	Rewards:
+	Losses: Local Loss: 5.256,
+INFO:root:Time: 00d 00h 00m 09s, num timesteps 40, FPS 4,
+	Rewards:
+	Losses: Local Loss: 5.037,
+INFO:root:Time: 00d 00h 00m 13s, num timesteps 60, FPS 4,
+	Rewards:
+	Losses: Local Loss: 4.692,
+INFO:root:Time: 00d 00h 06m 07s, num timesteps 80, FPS 0,
+	Rewards:
+	Losses: Local Loss: 4.313, SLAM Loss proj/exp/pose:0.3704/0.5761/1.7682
+INFO:root:Time: 00d 00h 18m 01s, num timesteps 100, FPS 0,
+	Rewards:
+	Losses: Local Loss: 4.026, SLAM Loss proj/exp/pose:0.2026/0.3478/0.6819
+INFO:root:Time: 00d 00h 30m 08s, num timesteps 120, FPS 0,
+	Rewards:
+	Losses: Local Loss: 3.821, SLAM Loss proj/exp/pose:0.1545/0.2710/0.4422
+INFO:root:Time: 00d 00h 42m 10s, num timesteps 140, FPS 0,
+	Rewards:
+	Losses: Local Loss: 3.671, SLAM Loss proj/exp/pose:0.1258/0.2259/0.3333
+INFO:root:Time: 00d 00h 54m 11s, num timesteps 160, FPS 0,
+	Rewards:
+	Losses: Local Loss: 3.559, SLAM Loss proj/exp/pose:0.1080/0.1975/0.2702
